@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Target506 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPA63C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/Target506.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\lenovo\Desktop\Target506(9)\Target506\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSPA63C.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPA63D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Target506.pdb" /debug /machine:I386 /out:"Debug/Target506.exe" /pdbtype:sept 
+".\Debug\Base.obj"
+".\Debug\Big_Block.obj"
+".\Debug\Block.obj"
+".\Debug\Buff.obj"
+".\Debug\Bullet.obj"
+".\Debug\EnemyTank.obj"
+".\Debug\Floor.obj"
+".\Debug\Grass.obj"
+".\Debug\Gray_Block.obj"
+".\Debug\MyTank.obj"
+".\Debug\River.obj"
+".\Debug\Tank.obj"
+".\Debug\Tower.obj"
+".\Debug\Yellow_Block.obj"
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSPA63D.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+C:\Users\lenovo\Desktop\Target506(9)\Target506\main.cpp(17) : warning C4102: 'start' : unreferenced label
+Linking...
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPA871.tmp" with contents
+[
+/nologo /o"Debug/Target506.bsc" 
+".\Debug\Base.sbr"
+".\Debug\Big_Block.sbr"
+".\Debug\Block.sbr"
+".\Debug\Buff.sbr"
+".\Debug\Bullet.sbr"
+".\Debug\EnemyTank.sbr"
+".\Debug\Floor.sbr"
+".\Debug\Grass.sbr"
+".\Debug\Gray_Block.sbr"
+".\Debug\MyTank.sbr"
+".\Debug\River.sbr"
+".\Debug\Tank.sbr"
+".\Debug\Tower.sbr"
+".\Debug\Yellow_Block.sbr"
+".\Debug\main.sbr"]
+Creating command line "bscmake.exe @C:\Users\lenovo\AppData\Local\Temp\RSPA871.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Target506.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
